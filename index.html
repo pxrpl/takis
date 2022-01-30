@@ -1,15 +1,38 @@
-<h1>TAKIS</h1>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Takis</title>
+  <link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>TAKIS</h1>
 <h2>Here is what i like about Takis</h2>
 
 <ul>
-
   <li>Takis are very tasty.</li>
-
   <li>They are spicy</li>
-
   <li>They are rolled up</li>
-
   <li>They make me relaxed and takes everything thats in my mind that im worried about, so then i dont think of anything</li>
-
 </ul>
+
+<a href="https://takis.barcel-usa.com/">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51NqKhKLBHL._SY355_.jpg"></a>
+<figcaption id="fig-text">This Takis bag is worth $3.00</figcaption>
+
+<form>
+  <h5>ready to order?</h5>
+
+  <p><label for="Order bags">Enter the number of bags you want<label><input type="number" id="customer-number"></p>
+
+  <input type="button" value="calculate total" id="calulate-button" onclick="calculateOrderTotal()" />
+  <p id="display-total"></p>
+
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
